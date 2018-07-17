@@ -11,6 +11,7 @@ Chainer implementation of https://www.microsoft.com/en-us/research/wp-content/up
 Once you clone this repo, run the following lines from bash **just once** to process the dataset (SQuAD).
 ```shell
 $ git clone https://github.com/NLPLearn/R-net.git
+$ cd R-net
 $ pip install -r requirements.txt
 $ bash setup.sh
 $ python process.py --process True
